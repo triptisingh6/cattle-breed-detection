@@ -1,0 +1,11 @@
+torch
+torchvision
+ultralytics
+gradio
+numpy
+opencv-python
+Pillow
+tqdm
+scikit-learn
+matplotlib
+seaborn
