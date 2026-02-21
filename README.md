@@ -100,37 +100,28 @@ This improves:
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
+```text
 cattle-breed-detection/
 │
-
 ├── README.md
-
 ├── requirements.txt
-
 ├── .gitignore
-
 │
-
 ├── models/
-
-│ └── breed_classifier_best.pth
-
+│   └── breed_classifier_best.pth
 │
-
 ├── src/
-
-│ ├── train.py
-│ ├── dataset.py
-│ ├── model.py
-│ ├── inference.py
-│ └── utils.py
+│   ├── train.py
+│   ├── dataset.py
+│   ├── model.py
+│   ├── inference.py
+│   └── utils.py
 │
-├── app/
-│ └── gradio_app.py
-│
-└── data/
+└── app/
+    └── gradio_app.py
+```
 
 ---
 
