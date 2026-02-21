@@ -21,15 +21,25 @@ The pipeline improves classification robustness by focusing only on the detected
 ## Architecture Pipeline
 
 Input Image
+
 ↓
+
 YOLOv8 (Cow Detection)
+
 ↓
+
 Crop Largest Bounding Box
+
 ↓
+
 EfficientNet-B0 (Breed Classification)
+
 ↓
+
 Softmax Confidence
+
 ↓
+
 Grad-CAM Visualization
 
 ---
