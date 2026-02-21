@@ -104,14 +104,23 @@ This improves:
 
 cattle-breed-detection/
 │
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── .gitignore
+
 │
+
 ├── models/
+
 │ └── breed_classifier_best.pth
+
 │
+
 ├── src/
+
 │ ├── train.py
 │ ├── dataset.py
 │ ├── model.py
